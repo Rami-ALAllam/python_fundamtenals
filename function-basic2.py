@@ -36,7 +36,7 @@ first_plus_length([1,2,3,4,5])
 def values_greater_than_second(Alist):
     ylist=[]
     counter=0
-    if len(Alist)<=2:
+    if len(Alist)<=1:
         print("Flase")
     else:
         for i in range (len(Alist)):
